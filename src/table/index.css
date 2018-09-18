@@ -1,0 +1,99 @@
+.App-title {
+	text-align: center;
+}
+.component {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  list-style: none;
+  border: 0.5px solid rgb(224, 224, 224) ;
+  width: 90%;
+  margin: auto;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13pt;
+  font-weight: 400;
+  color:rgb(125, 123, 132)
+}
+.component div {
+  padding: 0.5rem;
+  text-align: left;
+}
+/* select bar starts here */
+.select_bar {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  padding-left: 1rem;
+  padding-bottom: 0 !important;
+}
+li:first-of-type {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+button {
+  font-size: 15pt;
+  margin-left: 1rem;
+}
+
+i {
+  font-family: FontAwesome;
+  font-style: normal;
+}
+/* categories starts here */
+.categories {
+  border-top: 1px solid rgb(224, 224, 224) ;
+  border-bottom: 1px solid rgb(224, 224, 224) ;
+  display: flex;
+  justify-content: space-between;
+}
+.categories:first-child {
+  padding-left: 14rem;
+}
+.categories p:nth-of-type(3) {
+  padding-right: 27rem;
+}
+.categories p:nth-of-type(4) {
+  padding-right: 0.5rem;
+}
+/* rendered component starts here */
+.columns {
+  display: flex;
+  flex-direction: column;
+  width: calc(90% -1rem)
+}
+
+.row_elements:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.row_elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgb(224, 224, 224) ;
+}
+
+.row_elements div:first-of-type {
+  text-transform: lowercase;
+}
+.row_elements:last-child {
+  border: none;
+}
+/* checkbox style  */
+
+input[type=checkbox] {
+  cursor:pointer;
+  margin-left: 15px;
+  transform: scale(1.5)
+}
+
+.selected {
+  background-color: #80808059;
+}
+.fa-circle {
+  padding-right: 1rem;
+  color: rgb(133, 205, 67);
+}
